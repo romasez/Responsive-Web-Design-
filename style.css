@@ -1,0 +1,260 @@
+body {
+  background: #f4f6f8;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+code {
+  background: #e1e6eb;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: #222;
+}
+
+.site-header {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+}
+.site-header h1 { font-size: 24px; margin-bottom: 4px; }
+.site-header p  { margin-bottom: 12px; }
+
+.quick-links a {
+  display: inline-block;
+  color: #cfd8e0;
+  text-decoration: none;
+  padding: 4px 10px;
+}
+.quick-links a:hover { color: #fff; text-decoration: underline; }
+
+.demo {
+  padding: 30px 0;
+  border-bottom: 3px solid #d5dbe1;
+}
+.task-head { margin-bottom: 20px; }
+.task-head h2 { font-size: 20px; margin-bottom: 4px; }
+.task-head p  { font-size: 14px; color: #555; margin-bottom: 0; }
+
+.logo-mark {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 6px;
+  background: #e74c3c;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.t0-article {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.t0-title       { font-size: 20px; margin: 0 0 10px; }
+.t0-subtitle    { font-size: 17px; margin: 20px 0 10px; }
+.t0-small-title { font-size: 15px; margin: 20px 0 10px; }
+.t0-text        { font-size: 14px; margin-bottom: 12px; }
+
+@media (min-width: 768px) {
+  .t0-article     { padding: 30px; }
+  .t0-title       { font-size: 28px; }
+  .t0-subtitle    { font-size: 22px; }
+  .t0-small-title { font-size: 18px; }
+  .t0-text        { font-size: 17px; }
+}
+
+@media (min-width: 992px) {
+  .t0-article     { padding: 40px; }
+  .t0-title       { font-size: 38px; }
+  .t0-subtitle    { font-size: 28px; }
+  .t0-small-title { font-size: 22px; }
+  .t0-text        { font-size: 20px; }
+}
+
+.t1-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.t1-box {
+  width: 100%;
+  min-height: 160px;
+  padding: 25px;
+  border-radius: 8px;
+  color: #fff;
+}
+.t1-box h3 { font-size: 18px; margin-bottom: 10px; }
+.t1-box p  { font-size: 14px; margin-bottom: 0; }
+
+.t1-box-1 { background: #e74c3c; }
+.t1-box-2 { background: #27ae60; }
+.t1-box-3 { background: #2980b9; }
+
+@media (min-width: 768px) {
+  .t1-box { width: calc((100% - 20px) / 2); }   
+  .t1-box h3 { font-size: 22px; }
+  .t1-box p  { font-size: 16px; }
+}
+
+@media (min-width: 992px) {
+  .t1-box { width: calc((100% - 40px) / 3); }  
+  .t1-box h3 { font-size: 26px; }
+  .t1-box p  { font-size: 18px; }
+}
+
+.t2-box {
+  height: 100%;
+  min-height: 160px;
+  padding: 25px;
+  border-radius: 8px;
+  color: #fff;
+}
+.t2-box h3 { font-size: 18px; margin-bottom: 10px; }
+.t2-box p  { font-size: 14px; margin-bottom: 0; }
+
+.t2-box-1 { background: #e74c3c; }
+.t2-box-2 { background: #27ae60; }
+.t2-box-3 { background: #2980b9; }
+
+@media (min-width: 768px) {
+  .t2-box h3 { font-size: 22px; }
+  .t2-box p  { font-size: 16px; }
+}
+@media (min-width: 992px) {
+  .t2-box h3 { font-size: 26px; }
+  .t2-box p  { font-size: 18px; }
+}
+
+.t3-navbar { background: #2c3e50; }
+
+.t3-navbar .nav-link,
+.t4-navbar .nav-link { color: #cfd8e0; }
+
+.t3-navbar .nav-link:hover,
+.t3-navbar .nav-link.active,
+.t4-navbar .nav-link:hover,
+.t4-navbar .nav-link.active { color: #fff; }
+
+.t4 { padding-bottom: 0; }
+
+.t4-navbar { background: #2c3e50; }
+
+.t4-intro {
+  background: #34495e;
+  color: #fff;
+  padding: 25px 0;
+}
+.t4-intro h3 { font-size: 24px; margin-bottom: 8px; }
+.t4-intro p  { font-size: 14px; margin-bottom: 6px; }
+
+.t4-main { padding-top: 20px; padding-bottom: 20px; }
+.t4-section-title { font-size: 20px; margin-bottom: 15px; }
+
+.t4-card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.t4-cover {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.cover-1 { background: #e74c3c; }
+.cover-2 { background: #27ae60; }
+.cover-3 { background: #2980b9; }
+.cover-4 { background: #8e44ad; }
+
+.t4 .card-title { font-size: 17px; }
+.t4 .card-text  { font-size: 14px; }
+
+.t4-sidebar {
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.t4-name         { font-size: 18px; margin-bottom: 2px; }
+.t4-role         { color: #555; margin-bottom: 4px; }
+.t4-side-heading { font-size: 16px; margin-top: 18px; }
+.t4-list         { padding-left: 18px; margin-bottom: 0; }
+
+.t4-footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  font-size: 13px;
+}
+.t4-footer p { margin-bottom: 0; }
+
+.t4 .hide-mobile { display: none; }
+
+@media (min-width: 768px) {
+  .site-header h1 { font-size: 34px; }
+  .task-head h2 { font-size: 26px; }
+  .task-head p  { font-size: 16px; }
+
+  .t4-intro { padding: 40px 0; }
+  .t4-intro h3 { font-size: 34px; }
+  .t4-intro p  { font-size: 17px; }
+
+  .t4-main { padding-top: 30px; padding-bottom: 30px; }
+  .t4-section-title { font-size: 26px; }
+
+  .t4-cover { height: 110px; font-size: 28px; }
+  .t4 .card-title { font-size: 19px; }
+  .t4 .card-text  { font-size: 15px; }
+
+  .t4-sidebar { padding: 25px; }
+  .t4-name { font-size: 20px; }
+
+  .t4 .hide-mobile { display: block; }   /* visible from tablet up */
+}
+
+@media (min-width: 992px) {
+  .site-header h1 { font-size: 42px; }
+  .task-head h2 { font-size: 30px; }
+
+  .t4-intro { padding: 55px 0; }
+  .t4-intro h3 { font-size: 42px; }
+  .t4-intro p  { font-size: 20px; }
+
+  .t4-main { padding-top: 45px; padding-bottom: 45px; }
+  .t4-section-title { font-size: 30px; }
+
+  .t4-cover { height: 130px; font-size: 32px; }
+  .t4 .card-title { font-size: 21px; }
+  .t4 .card-text  { font-size: 16px; }
+
+  .t4-sidebar {
+    padding: 30px;
+    position: sticky;     
+    top: 20px;
+  }
+  .t4-name { font-size: 22px; }
+}
