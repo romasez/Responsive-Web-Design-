@@ -128,24 +128,3 @@
 **Desktop (1280px)**
 
 <img width="1190" height="912" alt="image" src="https://github.com/user-attachments/assets/35d53a64-edcb-4b57-89b6-49f596ad66aa" />
-
-
-## Summary of my work process
-
-Write here 4-6 sentences in your own words. What you did first, what was difficult, what you learned. Example of what to mention:
-
-- I put all tasks into one page (`index.html` + `style.css`), one section per task, with its own class prefix for each task so styles do not conflict.
-- I defined the breakpoints (768px and 992px) and used the mobile first approach: base styles for mobile and `min-width` media queries for tablet and desktop.
-- In Task 1 I made the layout only with flexbox and media queries; in Task 2 I got the same result with Bootstrap grid classes (`col-12 col-md-6 col-lg-4`).
-- In Task 3 I built the navbar and checked that the hamburger menu works only with `bootstrap.bundle.min.js`.
-- In Task 4 I combined Bootstrap (navbar, grid, cards) with my own media queries (font sizes, spacing, hidden elements).
-- What was the hardest part for me and how I solved it.
-
-## Checklist before submission
-
-- [ ] Name, group and repository link are filled in at the top of this file
-- [ ] All screenshots are in the `screenshots/` folder and their names match the links above
-- [ ] The summary is written in my own words
-- [ ] `index.html`, `style.css`, `README.md` and `screenshots/` are pushed to GitHub
-- [ ] The repository is public
-- [ ] The page opens without errors
