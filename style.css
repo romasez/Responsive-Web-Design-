@@ -233,7 +233,7 @@ code {
   .t4-sidebar { padding: 25px; }
   .t4-name { font-size: 20px; }
 
-  .t4 .hide-mobile { display: block; }   /* visible from tablet up */
+  .t4 .hide-mobile { display: block; }   
 }
 
 @media (min-width: 992px) {
